@@ -647,6 +647,11 @@
 
 ![system-design](system-design.png)
 
+1. Patient register data to registration service or go to kiosk to generate queue number
+2. Generated queue will be processed and directed to respective department
+3. Department staff will process each of patients one by one and set as done after the consultation done
+4. Last department (payment) will complete the queue if the payment is done 
+
 ---
 
 # Database Design
